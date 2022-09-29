@@ -1,11 +1,14 @@
-.navbar{
-    background-color: blue;
+.navbar {
+  display: inline-block;
 
 }
-
-.main{
-
+.navbar div {
+  display: inline-block;
 }
-.footer{
-list-style: none;
+
+.main {
+   
+}
+.footer {
+  list-style: none;
 }
