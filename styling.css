@@ -1,14 +1,139 @@
 .navbar {
   display: inline-block;
+  align-content: center;
+    width: 900px;
+    height: 10px;
+  
+    padding: 30px;
+    border: solid 20px  rgb(41, 115, 176);
+    
 
+    background-color: rgb(41, 115, 176);
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+   
+ 
 }
 .navbar div {
   display: inline-block;
+  text-align: left;
+}
+
+.navbar .gymtastic {
+  padding: 15px;
+  border:  1000px ;
+  margin: 0px
+}
+.navbar div.home {
+  padding: 15px;
+  border:  40px ;
+  margin: 0px
+}
+
+.navbar div.about {
+  padding: 15px;
+  border:  40px ;
+  margin: 0px
+}
+.navbar div.contract{
+  padding: 15px;
+  border:  40px ;
+  margin: 0px
 }
 
 .main {
-   
+   font-family: sans-serif;
+}
+.main h1.title{
+  color:rgb(41, 115, 176)
+}
+.main .blue strong{
+  color:rgb(41, 115, 176)
+}
+.main div.follow{
+  color:rgb(41, 115, 176);
+  font-size: x-large;
+
+}
+.main div.membership{
+  width: 190px;
+    height: 10px;
+  
+    padding: 20px ;
+    border:solid 5px rgb(221, 147, 35);
+    border-radius: 15px;
+    margin: 20px;
+
+    color: rgb(221, 147, 35);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.socials {
+  display: inline-block;
+}
+.socials div {
+  display: inline-block;
+  align-content: center;
+}
+.socials div.instagram{
+  width: 100px;
+  height: 10px;
+
+  padding: 20px ;
+  border:solid 2px rgb(96, 7, 121);
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 4px 4px #75717132;
+
+  color: white;
+  font-size: 20px;
+  font-weight: 750;
+  font-family: sans-serif;
+  background-color: rgb(139, 45, 221);
+}
+.socials div.facebook{
+  width: 100px;
+  height: 10px;
+
+  padding: 20px ;
+  border:solid 2px rgb(7, 64, 121);
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 4px 4px #75717132;
+
+  color: white;
+  font-size: 20px;
+  font-weight: 750;
+  font-family: sans-serif;
+  background-color: rgb(45, 115, 221);
+}
+.socials div.youtube{
+  width: 100px;
+  height: 10px;
+
+  padding: 20px ;
+  border:solid 2px rgb(174, 12, 12);
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 4px 4px #75717132;
+
+  color: white;
+  font-size: 20px;
+  font-weight: 750;
+  font-family: sans-serif;
+  background-color: rgb(225, 44, 44);
 }
 .footer {
+  width: 1000px;
   list-style: none;
+  font-family: sans-serif;
+  background-color: rgb(41, 115, 176);
+  color: white;
+}
+.footer .popular{
+  font-size: x-large;
+}
+.footer h4{
+  margin: 0px;
 }
